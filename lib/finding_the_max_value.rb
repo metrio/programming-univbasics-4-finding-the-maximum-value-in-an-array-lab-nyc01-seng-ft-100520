@@ -3,8 +3,9 @@ count = 0
 max_num = -1
 
 while array.length do
-  if array|number| > max_num
-    max_num << array|number|
+  if max_num < array[count]
+  max_num = array[count]
+end
   count += 1
 end
 end
