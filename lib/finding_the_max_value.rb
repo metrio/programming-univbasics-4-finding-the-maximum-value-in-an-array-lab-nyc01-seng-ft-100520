@@ -7,4 +7,3 @@ while array.length do
     max_num << array|number|
   end
   count += 1
-end
