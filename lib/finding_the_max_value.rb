@@ -5,5 +5,6 @@ max_num = []
 while array.length do
   if array|number| > max_num
     max_num << array|number|
-  end
   count += 1
+end
+end
